@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Lalezar-Regular;
+    src: url(./font/Lalezar-Regular.eot) format("eot"), url(./font/Lalezar-Regular.ttf) format("ttf"), url(./font/Lalezar-Regular.woff) format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lalezar-Regular;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-nav {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgba(240, 248, 255, 0.384);
+    border-radius: 7px;
+}
+
+.li-nav {
+    padding: 10px;
+    list-style-type: none;
+    direction: rtl;
+    font-size: larger;
+    color: rgb(46, 46, 46);
+}
+
+.li-nav:hover {
+    background-color: rgba(4, 224, 220, 0.667);
+    color: rgb(11, 11, 11);
+    border-right: 3px solid rgba(4, 1, 1, 0.571);
+    border-left: 3px solid rgba(4, 1, 1, 0.571);
+    border-radius: 30px;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img-menu {
+    width: 250px;
+    filter: drop-shadow( rgba(0, 0, 0, 0.664) 0px 5px 15px);
+}
+
+.menu-bar {}
+
+.LOGO {
+    width: 250px;
+    filter: drop-shadow( rgba(0, 0, 0, 0.808) 0px 5px 15px);
+}
+
+.grid-header {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-rows: auto;
+    padding: 5px;
+    align-items: ;
+}
+
+.h2-header {
+    font-size: 50px;
+    color: rgb(193, 199, 202);
+}
+
+.myhobbies1,
+.myhobbies4 {
+    border-right: solid 3px rgb(0, 157, 255);
+}
+
+.myhobbies2,
+.myhobbies5 {
+    border-right: solid 3px rgb(0, 157, 255);
+}
+
+.myhobbies5,
+.myhobbies6,
+.myhobbies4 {
+    border-top: solid 3px rgb(0, 157, 255);
+}
+
+.myhobbies5,
+.myhobbies4,
+.myhobbies3,
+.myhobbies2,
+.myhobbies1,
+.myhobbies6 {
+    padding: 10px 10px;
+    display: flex;
+}
+
+.font-i {
+    font-size: 45px;
+    padding: 2px;
+    color: rgb(0, 157, 255);
+}
+
+.h3-header {
+    font-size: 40px;
+    color: rgb(193, 199, 202);
+}
