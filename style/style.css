@@ -62,7 +62,7 @@ body {
 
 .grid-header {
     display: grid;
-    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
     grid-template-rows: auto;
     padding: 5px;
     align-items: ;
@@ -74,29 +74,32 @@ body {
 }
 
 .myhobbies1,
+.myhobbies3 {
+    border-right: solid 1px rgb(0, 157, 255);
+}
+
+.myhobbies1,
+.myhobbies2 {
+    border-bottom: solid 3px rgb(0, 157, 255);
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.myhobbies3,
 .myhobbies4 {
-    border-right: solid 3px rgb(0, 157, 255);
+    border-top: solid 1px rgb(0, 157, 255);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
-.myhobbies2,
-.myhobbies5 {
-    border-right: solid 3px rgb(0, 157, 255);
-}
-
-.myhobbies5,
-.myhobbies6,
-.myhobbies4 {
-    border-top: solid 3px rgb(0, 157, 255);
-}
-
-.myhobbies5,
 .myhobbies4,
 .myhobbies3,
 .myhobbies2,
-.myhobbies1,
-.myhobbies6 {
+.myhobbies1 {
     padding: 10px 10px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .font-i {
@@ -108,4 +111,48 @@ body {
 .h3-header {
     font-size: 40px;
     color: rgb(193, 199, 202);
+    padding: 5px;
+}
+
+.a-hos1:hover,
+.a-hos2:hover,
+.a-hos3:hover,
+.a-hos:hover {
+    font-size: 50px;
+    color: rgb(193, 199, 202);
+    padding: 7px;
+}
+
+.myhobbies4:hover,
+.myhobbies3:hover,
+.myhobbies2:hover,
+.myhobbies1:hover {
+    background-color: rgb(0, 0, 123);
+    border-radius: 25px;
+}
+
+.myhobbies1:hover {
+    border-top-right-radius: 0;
+}
+
+.myhobbies3:hover {
+    border-bottom-right-radius: 0;
+}
+
+.myhobbies2:hover {
+    border-top-left-radius: 0;
+}
+
+.myhobbies4:hover {
+    border-bottom-right-radius: 0;
+}
+
+.a-hos1,
+.a-hos2,
+.a-hos3,
+.a-hos4 {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
