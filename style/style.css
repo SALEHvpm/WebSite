@@ -36,6 +36,7 @@ body {
     direction: rtl;
     font-size: larger;
     color: rgb(46, 46, 46);
+    transition: all 300ms;
 }
 
 .li-nav:hover {
@@ -53,8 +54,6 @@ body {
     filter: drop-shadow( rgba(0, 0, 0, 0.664) 0px 5px 15px);
 }
 
-.menu-bar {}
-
 .LOGO {
     width: 250px;
     filter: drop-shadow( rgba(0, 0, 0, 0.808) 0px 5px 15px);
@@ -70,7 +69,7 @@ body {
 
 .h2-header {
     font-size: 50px;
-    color: rgb(193, 199, 202);
+    color: rgb(255, 255, 255);
 }
 
 .myhobbies1,
@@ -114,15 +113,6 @@ body {
     padding: 5px;
 }
 
-.a-hos1:hover,
-.a-hos2:hover,
-.a-hos3:hover,
-.a-hos:hover {
-    font-size: 50px;
-    color: rgb(193, 199, 202);
-    padding: 7px;
-}
-
 .myhobbies4:hover,
 .myhobbies3:hover,
 .myhobbies2:hover,
@@ -144,13 +134,10 @@ body {
 }
 
 .myhobbies4:hover {
-    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
-.a-hos1,
-.a-hos2,
-.a-hos3,
-.a-hos4 {
+.a-hos {
     text-decoration: none;
     display: flex;
     justify-content: center;
