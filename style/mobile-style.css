@@ -1,0 +1,112 @@
+body {
+    bbackground: rgb(63, 94, 251);
+    background: linear-gradient(355deg, rgba(63, 94, 251, 1) 0%, rgba(70, 252, 238, 1) 100%);
+}
+
+.grid-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.myhobbies4,
+.myhobbies3,
+.myhobbies2,
+.myhobbies1 {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: solid 3px rgba(0, 157, 255, 0);
+    background-color: rgba(255, 255, 255, 0.176);
+    width: 100%;
+}
+
+.myhobbies1 {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.myhobbies2,
+.myhobbies3 {
+    border-radius: 0px;
+}
+
+.myhobbies4 {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.myhobbies4:hover,
+.myhobbies3:hover,
+.myhobbies2:hover,
+.myhobbies1:hover {
+    border-radius: 0px;
+}
+
+.myhobbies1:hover {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.myhobbies4:hover {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.h3-header {
+    font-size: 40px;
+    color: rgb(254, 254, 254);
+    padding: 5px;
+    background-image: ;
+}
+
+.me-pic {
+    width: 200px;
+    height: 200px;
+}
+
+.border-me-pic {
+    width: 201px;
+    height: 201px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    border: solid 3px aqua;
+    position: absolute;
+    top: -145px;
+}
+
+.about-me {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 250px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px aqua;
+    border-radius: 25px;
+    position: relative;
+}
+
+.about-me h2 {
+    color: rgb(211, 211, 211);
+    font-size: 1.7rem;
+}
+
+.about-me p {
+    color: rgb(215, 215, 215);
+    font-size: 1.4rem;
+}
+
+.about-me ul {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-bar {
+    display: none;
+}

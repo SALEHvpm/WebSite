@@ -67,7 +67,7 @@ body {
     grid-template-columns: repeat(2, minmax(100px, 1fr));
     grid-template-rows: auto;
     padding: 5px;
-    align-items: ;
+    align-items: center;
 }
 
 .h2-header {
@@ -201,4 +201,12 @@ body {
     direction: rtl;
     padding: 20px;
     text-align: justify;
+}
+
+.name {
+    background-color: aqua;
+}
+
+.saleh {
+    background-color: black;
 }
