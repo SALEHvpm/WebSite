@@ -207,6 +207,10 @@ body {
     display: none;
 }
 
+.menu-items {
+    display: none;
+}
+
 @media (max-width: 480px) {
     body {
         bbackground: rgb(63, 94, 251);
@@ -328,6 +332,7 @@ body {
         width: 100%;
     }
     .menu-items {
+        display: block;
         width: 440px;
         background-color: rgba(240, 248, 255, 0.642);
     }
